@@ -1,0 +1,971 @@
+{
+  "type": "images",
+  "query": {
+    "original": "otters",
+    "spellcheck_off": true,
+    "show_strict_warning": false,
+    "altered": "otters"
+  },
+  "results": [
+    {
+      "type": "image_result",
+      "title": "Otter - Wikipedia (1)",
+      "url": "https://wikipedia.org/photo/1",
+      "source": "wikipedia.org",
+      "page_fetched": "2026-08-20T10:00:00Z",
+      "thumbnail": {
+        "src": "https://imgs.example.test/thumb/1.jpg"
+      },
+      "properties": {
+        "url": "https://wikipedia.org/full/1.jpg",
+        "placeholder": "https://imgs.example.test/ph/1.jpg",
+        "width": 1200,
+        "height": 800
+      },
+      "meta_url": {
+        "scheme": "https",
+        "netloc": "wikipedia.org",
+        "hostname": "wikipedia.org",
+        "favicon": "https://imgs.example.test/fav/wikipedia.org.png",
+        "path": "\u203a photo \u203a 1"
+      },
+      "confidence": "high"
+    },
+    {
+      "type": "image_result",
+      "title": "Sea otter close-up (2)",
+      "url": "https://nationalgeographic.com/photo/2",
+      "source": "nationalgeographic.com",
+      "page_fetched": "2026-08-20T10:00:00Z",
+      "thumbnail": {
+        "src": "https://imgs.example.test/thumb/2.jpg"
+      },
+      "properties": {
+        "url": "https://nationalgeographic.com/full/2.jpg",
+        "placeholder": "https://imgs.example.test/ph/2.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      "meta_url": {
+        "scheme": "https",
+        "netloc": "nationalgeographic.com",
+        "hostname": "nationalgeographic.com",
+        "favicon": "https://imgs.example.test/fav/nationalgeographic.com.png",
+        "path": "\u203a photo \u203a 2"
+      },
+      "confidence": "high"
+    },
+    {
+      "type": "image_result",
+      "title": "Sea otter floating in kelp (3)",
+      "url": "https://montereybayaquarium.org/photo/3",
+      "source": "montereybayaquarium.org",
+      "page_fetched": "2026-08-20T10:00:00Z",
+      "thumbnail": {
+        "src": "https://imgs.example.test/thumb/3.jpg"
+      },
+      "properties": {
+        "url": "https://montereybayaquarium.org/full/3.jpg",
+        "placeholder": "https://imgs.example.test/ph/3.jpg",
+        "width": 2000,
+        "height": 1125
+      },
+      "meta_url": {
+        "scheme": "https",
+        "netloc": "montereybayaquarium.org",
+        "hostname": "montereybayaquarium.org",
+        "favicon": "https://imgs.example.test/fav/montereybayaquarium.org.png",
+        "path": "\u203a photo \u203a 3"
+      },
+      "confidence": "high"
+    },
+    {
+      "type": "image_result",
+      "title": "River otter on a rock (4)",
+      "url": "https://unsplash.example.test/photo/4",
+      "source": "unsplash.example.test",
+      "page_fetched": "2026-08-20T10:00:00Z",
+      "thumbnail": {
+        "src": "https://imgs.example.test/thumb/4.jpg"
+      },
+      "properties": {
+        "url": "https://unsplash.example.test/full/4.jpg",
+        "placeholder": "https://imgs.example.test/ph/4.jpg",
+        "width": 800,
+        "height": 1200
+      },
+      "meta_url": {
+        "scheme": "https",
+        "netloc": "unsplash.example.test",
+        "hostname": "unsplash.example.test",
+        "favicon": "https://imgs.example.test/fav/unsplash.example.test.png",
+        "path": "\u203a photo \u203a 4"
+      },
+      "confidence": "high"
+    },
+    {
+      "type": "image_result",
+      "title": "Otter pup portrait (5)",
+      "url": "https://flickr.example.test/photo/5",
+      "source": "flickr.example.test",
+      "page_fetched": "2026-08-20T10:00:00Z",
+      "thumbnail": {
+        "src": "https://imgs.example.test/thumb/5.jpg"
+      },
+      "properties": {
+        "url": "https://flickr.example.test/full/5.jpg",
+        "placeholder": "https://imgs.example.test/ph/5.jpg",
+        "width": 1400,
+        "height": 933
+      },
+      "meta_url": {
+        "scheme": "https",
+        "netloc": "flickr.example.test",
+        "hostname": "flickr.example.test",
+        "favicon": "https://imgs.example.test/fav/flickr.example.test.png",
+        "path": "\u203a photo \u203a 5"
+      },
+      "confidence": "high"
+    },
+    {
+      "type": "image_result",
+      "title": "Asian small-clawed otter (6)",
+      "url": "https://zoo.example.test/photo/6",
+      "source": "zoo.example.test",
+      "page_fetched": "2026-08-20T10:00:00Z",
+      "thumbnail": {
+        "src": "https://imgs.example.test/thumb/6.jpg"
+      },
+      "properties": {
+        "url": "https://zoo.example.test/full/6.jpg",
+        "placeholder": "https://imgs.example.test/ph/6.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "meta_url": {
+        "scheme": "https",
+        "netloc": "zoo.example.test",
+        "hostname": "zoo.example.test",
+        "favicon": "https://imgs.example.test/fav/zoo.example.test.png",
+        "path": "\u203a photo \u203a 6"
+      },
+      "confidence": "high"
+    },
+    {
+      "type": "image_result",
+      "title": "Otter using a stone tool (7)",
+      "url": "https://science.example.test/photo/7",
+      "source": "science.example.test",
+      "page_fetched": "2026-08-20T10:00:00Z",
+      "thumbnail": {
+        "src": "https://imgs.example.test/thumb/7.jpg"
+      },
+      "properties": {
+        "url": "https://science.example.test/full/7.jpg",
+        "placeholder": "https://imgs.example.test/ph/7.jpg",
+        "width": 1600,
+        "height": 900
+      },
+      "meta_url": {
+        "scheme": "https",
+        "netloc": "science.example.test",
+        "hostname": "science.example.test",
+        "favicon": "https://imgs.example.test/fav/science.example.test.png",
+        "path": "\u203a photo \u203a 7"
+      },
+      "confidence": "high"
+    },
+    {
+      "type": "image_result",
+      "title": "Otters holding hands (8)",
+      "url": "https://gazette.example.test/photo/8",
+      "source": "gazette.example.test",
+      "page_fetched": "2026-08-20T10:00:00Z",
+      "thumbnail": {
+        "src": "https://imgs.example.test/thumb/8.jpg"
+      },
+      "properties": {
+        "url": "https://gazette.example.test/full/8.jpg",
+        "placeholder": "https://imgs.example.test/ph/8.jpg",
+        "width": 900,
+        "height": 1350
+      },
+      "meta_url": {
+        "scheme": "https",
+        "netloc": "gazette.example.test",
+        "hostname": "gazette.example.test",
+        "favicon": "https://imgs.example.test/fav/gazette.example.test.png",
+        "path": "\u203a photo \u203a 8"
+      },
+      "confidence": "high"
+    },
+    {
+      "type": "image_result",
+      "title": "Otter - Wikipedia (9)",
+      "url": "https://wikipedia.org/photo/9",
+      "source": "wikipedia.org",
+      "page_fetched": "2026-08-20T10:00:00Z",
+      "thumbnail": {
+        "src": "https://imgs.example.test/thumb/9.jpg"
+      },
+      "properties": {
+        "url": "https://wikipedia.org/full/9.jpg",
+        "placeholder": "https://imgs.example.test/ph/9.jpg",
+        "width": 1200,
+        "height": 800
+      },
+      "meta_url": {
+        "scheme": "https",
+        "netloc": "wikipedia.org",
+        "hostname": "wikipedia.org",
+        "favicon": "https://imgs.example.test/fav/wikipedia.org.png",
+        "path": "\u203a photo \u203a 9"
+      },
+      "confidence": "high"
+    },
+    {
+      "type": "image_result",
+      "title": "Sea otter close-up (10)",
+      "url": "https://nationalgeographic.com/photo/10",
+      "source": "nationalgeographic.com",
+      "page_fetched": "2026-08-20T10:00:00Z",
+      "thumbnail": {
+        "src": "https://imgs.example.test/thumb/10.jpg"
+      },
+      "properties": {
+        "url": "https://nationalgeographic.com/full/10.jpg",
+        "placeholder": "https://imgs.example.test/ph/10.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      "meta_url": {
+        "scheme": "https",
+        "netloc": "nationalgeographic.com",
+        "hostname": "nationalgeographic.com",
+        "favicon": "https://imgs.example.test/fav/nationalgeographic.com.png",
+        "path": "\u203a photo \u203a 10"
+      },
+      "confidence": "high"
+    },
+    {
+      "type": "image_result",
+      "title": "Sea otter floating in kelp (11)",
+      "url": "https://montereybayaquarium.org/photo/11",
+      "source": "montereybayaquarium.org",
+      "page_fetched": "2026-08-20T10:00:00Z",
+      "thumbnail": {
+        "src": "https://imgs.example.test/thumb/11.jpg"
+      },
+      "properties": {
+        "url": "https://montereybayaquarium.org/full/11.jpg",
+        "placeholder": "https://imgs.example.test/ph/11.jpg",
+        "width": 2000,
+        "height": 1125
+      },
+      "meta_url": {
+        "scheme": "https",
+        "netloc": "montereybayaquarium.org",
+        "hostname": "montereybayaquarium.org",
+        "favicon": "https://imgs.example.test/fav/montereybayaquarium.org.png",
+        "path": "\u203a photo \u203a 11"
+      },
+      "confidence": "high"
+    },
+    {
+      "type": "image_result",
+      "title": "River otter on a rock (12)",
+      "url": "https://unsplash.example.test/photo/12",
+      "source": "unsplash.example.test",
+      "page_fetched": "2026-08-20T10:00:00Z",
+      "thumbnail": {
+        "src": "https://imgs.example.test/thumb/12.jpg"
+      },
+      "properties": {
+        "url": "https://unsplash.example.test/full/12.jpg",
+        "placeholder": "https://imgs.example.test/ph/12.jpg",
+        "width": 800,
+        "height": 1200
+      },
+      "meta_url": {
+        "scheme": "https",
+        "netloc": "unsplash.example.test",
+        "hostname": "unsplash.example.test",
+        "favicon": "https://imgs.example.test/fav/unsplash.example.test.png",
+        "path": "\u203a photo \u203a 12"
+      },
+      "confidence": "high"
+    },
+    {
+      "type": "image_result",
+      "title": "Otter pup portrait (13)",
+      "url": "https://flickr.example.test/photo/13",
+      "source": "flickr.example.test",
+      "page_fetched": "2026-08-20T10:00:00Z",
+      "thumbnail": {
+        "src": "https://imgs.example.test/thumb/13.jpg"
+      },
+      "properties": {
+        "url": "https://flickr.example.test/full/13.jpg",
+        "placeholder": "https://imgs.example.test/ph/13.jpg",
+        "width": 1400,
+        "height": 933
+      },
+      "meta_url": {
+        "scheme": "https",
+        "netloc": "flickr.example.test",
+        "hostname": "flickr.example.test",
+        "favicon": "https://imgs.example.test/fav/flickr.example.test.png",
+        "path": "\u203a photo \u203a 13"
+      },
+      "confidence": "high"
+    },
+    {
+      "type": "image_result",
+      "title": "Asian small-clawed otter (14)",
+      "url": "https://zoo.example.test/photo/14",
+      "source": "zoo.example.test",
+      "page_fetched": "2026-08-20T10:00:00Z",
+      "thumbnail": {
+        "src": "https://imgs.example.test/thumb/14.jpg"
+      },
+      "properties": {
+        "url": "https://zoo.example.test/full/14.jpg",
+        "placeholder": "https://imgs.example.test/ph/14.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "meta_url": {
+        "scheme": "https",
+        "netloc": "zoo.example.test",
+        "hostname": "zoo.example.test",
+        "favicon": "https://imgs.example.test/fav/zoo.example.test.png",
+        "path": "\u203a photo \u203a 14"
+      },
+      "confidence": "high"
+    },
+    {
+      "type": "image_result",
+      "title": "Otter using a stone tool (15)",
+      "url": "https://science.example.test/photo/15",
+      "source": "science.example.test",
+      "page_fetched": "2026-08-20T10:00:00Z",
+      "thumbnail": {
+        "src": "https://imgs.example.test/thumb/15.jpg"
+      },
+      "properties": {
+        "url": "https://science.example.test/full/15.jpg",
+        "placeholder": "https://imgs.example.test/ph/15.jpg",
+        "width": 1600,
+        "height": 900
+      },
+      "meta_url": {
+        "scheme": "https",
+        "netloc": "science.example.test",
+        "hostname": "science.example.test",
+        "favicon": "https://imgs.example.test/fav/science.example.test.png",
+        "path": "\u203a photo \u203a 15"
+      },
+      "confidence": "high"
+    },
+    {
+      "type": "image_result",
+      "title": "Otters holding hands (16)",
+      "url": "https://gazette.example.test/photo/16",
+      "source": "gazette.example.test",
+      "page_fetched": "2026-08-20T10:00:00Z",
+      "thumbnail": {
+        "src": "https://imgs.example.test/thumb/16.jpg"
+      },
+      "properties": {
+        "url": "https://gazette.example.test/full/16.jpg",
+        "placeholder": "https://imgs.example.test/ph/16.jpg",
+        "width": 900,
+        "height": 1350
+      },
+      "meta_url": {
+        "scheme": "https",
+        "netloc": "gazette.example.test",
+        "hostname": "gazette.example.test",
+        "favicon": "https://imgs.example.test/fav/gazette.example.test.png",
+        "path": "\u203a photo \u203a 16"
+      },
+      "confidence": "high"
+    },
+    {
+      "type": "image_result",
+      "title": "Otter - Wikipedia (17)",
+      "url": "https://wikipedia.org/photo/17",
+      "source": "wikipedia.org",
+      "page_fetched": "2026-08-20T10:00:00Z",
+      "thumbnail": {
+        "src": "https://imgs.example.test/thumb/17.jpg"
+      },
+      "properties": {
+        "url": "https://wikipedia.org/full/17.jpg",
+        "placeholder": "https://imgs.example.test/ph/17.jpg",
+        "width": 1200,
+        "height": 800
+      },
+      "meta_url": {
+        "scheme": "https",
+        "netloc": "wikipedia.org",
+        "hostname": "wikipedia.org",
+        "favicon": "https://imgs.example.test/fav/wikipedia.org.png",
+        "path": "\u203a photo \u203a 17"
+      },
+      "confidence": "high"
+    },
+    {
+      "type": "image_result",
+      "title": "Sea otter close-up (18)",
+      "url": "https://nationalgeographic.com/photo/18",
+      "source": "nationalgeographic.com",
+      "page_fetched": "2026-08-20T10:00:00Z",
+      "thumbnail": {
+        "src": "https://imgs.example.test/thumb/18.jpg"
+      },
+      "properties": {
+        "url": "https://nationalgeographic.com/full/18.jpg",
+        "placeholder": "https://imgs.example.test/ph/18.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      "meta_url": {
+        "scheme": "https",
+        "netloc": "nationalgeographic.com",
+        "hostname": "nationalgeographic.com",
+        "favicon": "https://imgs.example.test/fav/nationalgeographic.com.png",
+        "path": "\u203a photo \u203a 18"
+      },
+      "confidence": "high"
+    },
+    {
+      "type": "image_result",
+      "title": "Sea otter floating in kelp (19)",
+      "url": "https://montereybayaquarium.org/photo/19",
+      "source": "montereybayaquarium.org",
+      "page_fetched": "2026-08-20T10:00:00Z",
+      "thumbnail": {
+        "src": "https://imgs.example.test/thumb/19.jpg"
+      },
+      "properties": {
+        "url": "https://montereybayaquarium.org/full/19.jpg",
+        "placeholder": "https://imgs.example.test/ph/19.jpg",
+        "width": 2000,
+        "height": 1125
+      },
+      "meta_url": {
+        "scheme": "https",
+        "netloc": "montereybayaquarium.org",
+        "hostname": "montereybayaquarium.org",
+        "favicon": "https://imgs.example.test/fav/montereybayaquarium.org.png",
+        "path": "\u203a photo \u203a 19"
+      },
+      "confidence": "high"
+    },
+    {
+      "type": "image_result",
+      "title": "River otter on a rock (20)",
+      "url": "https://unsplash.example.test/photo/20",
+      "source": "unsplash.example.test",
+      "page_fetched": "2026-08-20T10:00:00Z",
+      "thumbnail": {
+        "src": "https://imgs.example.test/thumb/20.jpg"
+      },
+      "properties": {
+        "url": "https://unsplash.example.test/full/20.jpg",
+        "placeholder": "https://imgs.example.test/ph/20.jpg",
+        "width": 800,
+        "height": 1200
+      },
+      "meta_url": {
+        "scheme": "https",
+        "netloc": "unsplash.example.test",
+        "hostname": "unsplash.example.test",
+        "favicon": "https://imgs.example.test/fav/unsplash.example.test.png",
+        "path": "\u203a photo \u203a 20"
+      },
+      "confidence": "high"
+    },
+    {
+      "type": "image_result",
+      "title": "Otter pup portrait (21)",
+      "url": "https://flickr.example.test/photo/21",
+      "source": "flickr.example.test",
+      "page_fetched": "2026-08-20T10:00:00Z",
+      "thumbnail": {
+        "src": "https://imgs.example.test/thumb/21.jpg"
+      },
+      "properties": {
+        "url": "https://flickr.example.test/full/21.jpg",
+        "placeholder": "https://imgs.example.test/ph/21.jpg",
+        "width": 1400,
+        "height": 933
+      },
+      "meta_url": {
+        "scheme": "https",
+        "netloc": "flickr.example.test",
+        "hostname": "flickr.example.test",
+        "favicon": "https://imgs.example.test/fav/flickr.example.test.png",
+        "path": "\u203a photo \u203a 21"
+      },
+      "confidence": "high"
+    },
+    {
+      "type": "image_result",
+      "title": "Asian small-clawed otter (22)",
+      "url": "https://zoo.example.test/photo/22",
+      "source": "zoo.example.test",
+      "page_fetched": "2026-08-20T10:00:00Z",
+      "thumbnail": {
+        "src": "https://imgs.example.test/thumb/22.jpg"
+      },
+      "properties": {
+        "url": "https://zoo.example.test/full/22.jpg",
+        "placeholder": "https://imgs.example.test/ph/22.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "meta_url": {
+        "scheme": "https",
+        "netloc": "zoo.example.test",
+        "hostname": "zoo.example.test",
+        "favicon": "https://imgs.example.test/fav/zoo.example.test.png",
+        "path": "\u203a photo \u203a 22"
+      },
+      "confidence": "high"
+    },
+    {
+      "type": "image_result",
+      "title": "Otter using a stone tool (23)",
+      "url": "https://science.example.test/photo/23",
+      "source": "science.example.test",
+      "page_fetched": "2026-08-20T10:00:00Z",
+      "thumbnail": {
+        "src": "https://imgs.example.test/thumb/23.jpg"
+      },
+      "properties": {
+        "url": "https://science.example.test/full/23.jpg",
+        "placeholder": "https://imgs.example.test/ph/23.jpg",
+        "width": 1600,
+        "height": 900
+      },
+      "meta_url": {
+        "scheme": "https",
+        "netloc": "science.example.test",
+        "hostname": "science.example.test",
+        "favicon": "https://imgs.example.test/fav/science.example.test.png",
+        "path": "\u203a photo \u203a 23"
+      },
+      "confidence": "high"
+    },
+    {
+      "type": "image_result",
+      "title": "Otters holding hands (24)",
+      "url": "https://gazette.example.test/photo/24",
+      "source": "gazette.example.test",
+      "page_fetched": "2026-08-20T10:00:00Z",
+      "thumbnail": {
+        "src": "https://imgs.example.test/thumb/24.jpg"
+      },
+      "properties": {
+        "url": "https://gazette.example.test/full/24.jpg",
+        "placeholder": "https://imgs.example.test/ph/24.jpg",
+        "width": 900,
+        "height": 1350
+      },
+      "meta_url": {
+        "scheme": "https",
+        "netloc": "gazette.example.test",
+        "hostname": "gazette.example.test",
+        "favicon": "https://imgs.example.test/fav/gazette.example.test.png",
+        "path": "\u203a photo \u203a 24"
+      },
+      "confidence": "high"
+    },
+    {
+      "type": "image_result",
+      "title": "Otter - Wikipedia (25)",
+      "url": "https://wikipedia.org/photo/25",
+      "source": "wikipedia.org",
+      "page_fetched": "2026-08-20T10:00:00Z",
+      "thumbnail": {
+        "src": "https://imgs.example.test/thumb/25.jpg"
+      },
+      "properties": {
+        "url": "https://wikipedia.org/full/25.jpg",
+        "placeholder": "https://imgs.example.test/ph/25.jpg",
+        "width": 1200,
+        "height": 800
+      },
+      "meta_url": {
+        "scheme": "https",
+        "netloc": "wikipedia.org",
+        "hostname": "wikipedia.org",
+        "favicon": "https://imgs.example.test/fav/wikipedia.org.png",
+        "path": "\u203a photo \u203a 25"
+      },
+      "confidence": "high"
+    },
+    {
+      "type": "image_result",
+      "title": "Sea otter close-up (26)",
+      "url": "https://nationalgeographic.com/photo/26",
+      "source": "nationalgeographic.com",
+      "page_fetched": "2026-08-20T10:00:00Z",
+      "thumbnail": {
+        "src": "https://imgs.example.test/thumb/26.jpg"
+      },
+      "properties": {
+        "url": "https://nationalgeographic.com/full/26.jpg",
+        "placeholder": "https://imgs.example.test/ph/26.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      "meta_url": {
+        "scheme": "https",
+        "netloc": "nationalgeographic.com",
+        "hostname": "nationalgeographic.com",
+        "favicon": "https://imgs.example.test/fav/nationalgeographic.com.png",
+        "path": "\u203a photo \u203a 26"
+      },
+      "confidence": "high"
+    },
+    {
+      "type": "image_result",
+      "title": "Sea otter floating in kelp (27)",
+      "url": "https://montereybayaquarium.org/photo/27",
+      "source": "montereybayaquarium.org",
+      "page_fetched": "2026-08-20T10:00:00Z",
+      "thumbnail": {
+        "src": "https://imgs.example.test/thumb/27.jpg"
+      },
+      "properties": {
+        "url": "https://montereybayaquarium.org/full/27.jpg",
+        "placeholder": "https://imgs.example.test/ph/27.jpg",
+        "width": 2000,
+        "height": 1125
+      },
+      "meta_url": {
+        "scheme": "https",
+        "netloc": "montereybayaquarium.org",
+        "hostname": "montereybayaquarium.org",
+        "favicon": "https://imgs.example.test/fav/montereybayaquarium.org.png",
+        "path": "\u203a photo \u203a 27"
+      },
+      "confidence": "high"
+    },
+    {
+      "type": "image_result",
+      "title": "River otter on a rock (28)",
+      "url": "https://unsplash.example.test/photo/28",
+      "source": "unsplash.example.test",
+      "page_fetched": "2026-08-20T10:00:00Z",
+      "thumbnail": {
+        "src": "https://imgs.example.test/thumb/28.jpg"
+      },
+      "properties": {
+        "url": "https://unsplash.example.test/full/28.jpg",
+        "placeholder": "https://imgs.example.test/ph/28.jpg",
+        "width": 800,
+        "height": 1200
+      },
+      "meta_url": {
+        "scheme": "https",
+        "netloc": "unsplash.example.test",
+        "hostname": "unsplash.example.test",
+        "favicon": "https://imgs.example.test/fav/unsplash.example.test.png",
+        "path": "\u203a photo \u203a 28"
+      },
+      "confidence": "high"
+    },
+    {
+      "type": "image_result",
+      "title": "Otter pup portrait (29)",
+      "url": "https://flickr.example.test/photo/29",
+      "source": "flickr.example.test",
+      "page_fetched": "2026-08-20T10:00:00Z",
+      "thumbnail": {
+        "src": "https://imgs.example.test/thumb/29.jpg"
+      },
+      "properties": {
+        "url": "https://flickr.example.test/full/29.jpg",
+        "placeholder": "https://imgs.example.test/ph/29.jpg",
+        "width": 1400,
+        "height": 933
+      },
+      "meta_url": {
+        "scheme": "https",
+        "netloc": "flickr.example.test",
+        "hostname": "flickr.example.test",
+        "favicon": "https://imgs.example.test/fav/flickr.example.test.png",
+        "path": "\u203a photo \u203a 29"
+      },
+      "confidence": "high"
+    },
+    {
+      "type": "image_result",
+      "title": "Asian small-clawed otter (30)",
+      "url": "https://zoo.example.test/photo/30",
+      "source": "zoo.example.test",
+      "page_fetched": "2026-08-20T10:00:00Z",
+      "thumbnail": {
+        "src": "https://imgs.example.test/thumb/30.jpg"
+      },
+      "properties": {
+        "url": "https://zoo.example.test/full/30.jpg",
+        "placeholder": "https://imgs.example.test/ph/30.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "meta_url": {
+        "scheme": "https",
+        "netloc": "zoo.example.test",
+        "hostname": "zoo.example.test",
+        "favicon": "https://imgs.example.test/fav/zoo.example.test.png",
+        "path": "\u203a photo \u203a 30"
+      },
+      "confidence": "high"
+    },
+    {
+      "type": "image_result",
+      "title": "Otter using a stone tool (31)",
+      "url": "https://science.example.test/photo/31",
+      "source": "science.example.test",
+      "page_fetched": "2026-08-20T10:00:00Z",
+      "thumbnail": {
+        "src": "https://imgs.example.test/thumb/31.jpg"
+      },
+      "properties": {
+        "url": "https://science.example.test/full/31.jpg",
+        "placeholder": "https://imgs.example.test/ph/31.jpg",
+        "width": 1600,
+        "height": 900
+      },
+      "meta_url": {
+        "scheme": "https",
+        "netloc": "science.example.test",
+        "hostname": "science.example.test",
+        "favicon": "https://imgs.example.test/fav/science.example.test.png",
+        "path": "\u203a photo \u203a 31"
+      },
+      "confidence": "high"
+    },
+    {
+      "type": "image_result",
+      "title": "Otters holding hands (32)",
+      "url": "https://gazette.example.test/photo/32",
+      "source": "gazette.example.test",
+      "page_fetched": "2026-08-20T10:00:00Z",
+      "thumbnail": {
+        "src": "https://imgs.example.test/thumb/32.jpg"
+      },
+      "properties": {
+        "url": "https://gazette.example.test/full/32.jpg",
+        "placeholder": "https://imgs.example.test/ph/32.jpg",
+        "width": 900,
+        "height": 1350
+      },
+      "meta_url": {
+        "scheme": "https",
+        "netloc": "gazette.example.test",
+        "hostname": "gazette.example.test",
+        "favicon": "https://imgs.example.test/fav/gazette.example.test.png",
+        "path": "\u203a photo \u203a 32"
+      },
+      "confidence": "high"
+    },
+    {
+      "type": "image_result",
+      "title": "Otter - Wikipedia (33)",
+      "url": "https://wikipedia.org/photo/33",
+      "source": "wikipedia.org",
+      "page_fetched": "2026-08-20T10:00:00Z",
+      "thumbnail": {
+        "src": "https://imgs.example.test/thumb/33.jpg"
+      },
+      "properties": {
+        "url": "https://wikipedia.org/full/33.jpg",
+        "placeholder": "https://imgs.example.test/ph/33.jpg",
+        "width": 1200,
+        "height": 800
+      },
+      "meta_url": {
+        "scheme": "https",
+        "netloc": "wikipedia.org",
+        "hostname": "wikipedia.org",
+        "favicon": "https://imgs.example.test/fav/wikipedia.org.png",
+        "path": "\u203a photo \u203a 33"
+      },
+      "confidence": "high"
+    },
+    {
+      "type": "image_result",
+      "title": "Sea otter close-up (34)",
+      "url": "https://nationalgeographic.com/photo/34",
+      "source": "nationalgeographic.com",
+      "page_fetched": "2026-08-20T10:00:00Z",
+      "thumbnail": {
+        "src": "https://imgs.example.test/thumb/34.jpg"
+      },
+      "properties": {
+        "url": "https://nationalgeographic.com/full/34.jpg",
+        "placeholder": "https://imgs.example.test/ph/34.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      "meta_url": {
+        "scheme": "https",
+        "netloc": "nationalgeographic.com",
+        "hostname": "nationalgeographic.com",
+        "favicon": "https://imgs.example.test/fav/nationalgeographic.com.png",
+        "path": "\u203a photo \u203a 34"
+      },
+      "confidence": "high"
+    },
+    {
+      "type": "image_result",
+      "title": "Sea otter floating in kelp (35)",
+      "url": "https://montereybayaquarium.org/photo/35",
+      "source": "montereybayaquarium.org",
+      "page_fetched": "2026-08-20T10:00:00Z",
+      "thumbnail": {
+        "src": "https://imgs.example.test/thumb/35.jpg"
+      },
+      "properties": {
+        "url": "https://montereybayaquarium.org/full/35.jpg",
+        "placeholder": "https://imgs.example.test/ph/35.jpg",
+        "width": 2000,
+        "height": 1125
+      },
+      "meta_url": {
+        "scheme": "https",
+        "netloc": "montereybayaquarium.org",
+        "hostname": "montereybayaquarium.org",
+        "favicon": "https://imgs.example.test/fav/montereybayaquarium.org.png",
+        "path": "\u203a photo \u203a 35"
+      },
+      "confidence": "high"
+    },
+    {
+      "type": "image_result",
+      "title": "River otter on a rock (36)",
+      "url": "https://unsplash.example.test/photo/36",
+      "source": "unsplash.example.test",
+      "page_fetched": "2026-08-20T10:00:00Z",
+      "thumbnail": {
+        "src": "https://imgs.example.test/thumb/36.jpg"
+      },
+      "properties": {
+        "url": "https://unsplash.example.test/full/36.jpg",
+        "placeholder": "https://imgs.example.test/ph/36.jpg",
+        "width": 800,
+        "height": 1200
+      },
+      "meta_url": {
+        "scheme": "https",
+        "netloc": "unsplash.example.test",
+        "hostname": "unsplash.example.test",
+        "favicon": "https://imgs.example.test/fav/unsplash.example.test.png",
+        "path": "\u203a photo \u203a 36"
+      },
+      "confidence": "high"
+    },
+    {
+      "type": "image_result",
+      "title": "Otter pup portrait (37)",
+      "url": "https://flickr.example.test/photo/37",
+      "source": "flickr.example.test",
+      "page_fetched": "2026-08-20T10:00:00Z",
+      "thumbnail": {
+        "src": "https://imgs.example.test/thumb/37.jpg"
+      },
+      "properties": {
+        "url": "https://flickr.example.test/full/37.jpg",
+        "placeholder": "https://imgs.example.test/ph/37.jpg",
+        "width": 1400,
+        "height": 933
+      },
+      "meta_url": {
+        "scheme": "https",
+        "netloc": "flickr.example.test",
+        "hostname": "flickr.example.test",
+        "favicon": "https://imgs.example.test/fav/flickr.example.test.png",
+        "path": "\u203a photo \u203a 37"
+      },
+      "confidence": "high"
+    },
+    {
+      "type": "image_result",
+      "title": "Asian small-clawed otter (38)",
+      "url": "https://zoo.example.test/photo/38",
+      "source": "zoo.example.test",
+      "page_fetched": "2026-08-20T10:00:00Z",
+      "thumbnail": {
+        "src": "https://imgs.example.test/thumb/38.jpg"
+      },
+      "properties": {
+        "url": "https://zoo.example.test/full/38.jpg",
+        "placeholder": "https://imgs.example.test/ph/38.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "meta_url": {
+        "scheme": "https",
+        "netloc": "zoo.example.test",
+        "hostname": "zoo.example.test",
+        "favicon": "https://imgs.example.test/fav/zoo.example.test.png",
+        "path": "\u203a photo \u203a 38"
+      },
+      "confidence": "high"
+    },
+    {
+      "type": "image_result",
+      "title": "Otter using a stone tool (39)",
+      "url": "https://science.example.test/photo/39",
+      "source": "science.example.test",
+      "page_fetched": "2026-08-20T10:00:00Z",
+      "thumbnail": {
+        "src": "https://imgs.example.test/thumb/39.jpg"
+      },
+      "properties": {
+        "url": "https://science.example.test/full/39.jpg",
+        "placeholder": "https://imgs.example.test/ph/39.jpg",
+        "width": 1600,
+        "height": 900
+      },
+      "meta_url": {
+        "scheme": "https",
+        "netloc": "science.example.test",
+        "hostname": "science.example.test",
+        "favicon": "https://imgs.example.test/fav/science.example.test.png",
+        "path": "\u203a photo \u203a 39"
+      },
+      "confidence": "high"
+    },
+    {
+      "type": "image_result",
+      "title": "Otters holding hands (40)",
+      "url": "https://gazette.example.test/photo/40",
+      "source": "gazette.example.test",
+      "page_fetched": "2026-08-20T10:00:00Z",
+      "thumbnail": {
+        "src": "https://imgs.example.test/thumb/40.jpg"
+      },
+      "properties": {
+        "url": "https://gazette.example.test/full/40.jpg",
+        "placeholder": "https://imgs.example.test/ph/40.jpg",
+        "width": 900,
+        "height": 1350
+      },
+      "meta_url": {
+        "scheme": "https",
+        "netloc": "gazette.example.test",
+        "hostname": "gazette.example.test",
+        "favicon": "https://imgs.example.test/fav/gazette.example.test.png",
+        "path": "\u203a photo \u203a 40"
+      },
+      "confidence": "high"
+    }
+  ]
+}

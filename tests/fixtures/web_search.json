@@ -1,0 +1,367 @@
+{
+  "type": "search",
+  "query": {
+    "original": "otters",
+    "altered": "otters",
+    "show_strict_warning": false,
+    "is_navigational": false,
+    "more_results_available": true,
+    "country": "us"
+  },
+  "mixed": {
+    "type": "mixed",
+    "main": [
+      {
+        "type": "web",
+        "index": 0,
+        "all": false
+      }
+    ]
+  },
+  "infobox": {
+    "type": "graph",
+    "results": [
+      {
+        "type": "infobox",
+        "subtype": "generic",
+        "title": "Otter",
+        "subtitle": "Carnivorous mammal",
+        "long_desc": "Otters are carnivorous mammals in the subfamily Lutrinae. The 13 extant otter species are all semiaquatic, aquatic, or marine, with diets based on fish and invertebrates.",
+        "thumbnail": {
+          "src": "https://imgs.example.test/otter.jpg",
+          "original": "https://example.test/otter.jpg"
+        },
+        "attributes": [
+          [
+            "Scientific name",
+            "Lutrinae"
+          ],
+          [
+            "Lifespan",
+            "10 - 15 years"
+          ],
+          [
+            "Family",
+            "Mustelidae"
+          ]
+        ],
+        "profiles": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Otter",
+            "img": "https://imgs.example.test/wiki.png"
+          }
+        ],
+        "website_url": "https://www.otterspecialistgroup.org"
+      }
+    ]
+  },
+  "faq": {
+    "type": "faq",
+    "results": [
+      {
+        "question": "What do otters eat?",
+        "answer": "Otters eat fish, crabs, frogs and other small aquatic animals, and some species use rocks as tools to crack shells.",
+        "title": "Otter diet - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Otter",
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "en.wikipedia.org",
+          "hostname": "en.wikipedia.org",
+          "favicon": "https://imgs.example.test/wiki.png",
+          "path": "\u203a wiki \u203a Otter"
+        }
+      },
+      {
+        "question": "How long do sea otters live?",
+        "answer": "Sea otters typically live 10 to 15 years in the wild, with females often outliving males.",
+        "title": "Sea otter facts",
+        "url": "https://oceana.org/marine-life/sea-otter/",
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "oceana.org",
+          "hostname": "oceana.org",
+          "favicon": "https://imgs.example.test/oceana.png",
+          "path": "\u203a marine-life \u203a sea-otter"
+        }
+      }
+    ]
+  },
+  "discussions": {
+    "type": "search",
+    "results": [
+      {
+        "type": "search_result",
+        "subtype": "discussion",
+        "title": "Why do otters hold hands?",
+        "url": "https://www.reddit.com/r/Otters/comments/abc123/",
+        "description": "They raft together so they don't drift apart while sleeping.",
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "reddit.com",
+          "hostname": "www.reddit.com",
+          "favicon": "https://imgs.example.test/reddit.png",
+          "path": "\u203a r \u203a Otters"
+        },
+        "data": {
+          "forum_name": "r/Otters",
+          "num_answers": 42,
+          "score": "1.2k upvotes",
+          "title": "Why do otters hold hands?",
+          "question": "Saw a video of two otters holding hands while floating. Is there a reason for this?",
+          "top_comment": "They raft up so the group doesn't drift apart while they sleep on the water."
+        }
+      }
+    ]
+  },
+  "news": {
+    "type": "news",
+    "results": [
+      {
+        "type": "news_result",
+        "title": "Sea otter population rebounds along the central coast",
+        "url": "https://news.example.test/sea-otter-rebound",
+        "description": "Surveys counted the highest number of <strong>otters</strong> in three decades.",
+        "age": "6 hours ago",
+        "page_age": "2026-08-25T04:00:00",
+        "breaking": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "news.example.test",
+          "hostname": "news.example.test",
+          "favicon": "https://imgs.example.test/news.png",
+          "path": "\u203a sea-otter-rebound"
+        },
+        "thumbnail": {
+          "src": "https://imgs.example.test/news1.jpg",
+          "original": "https://news.example.test/news1.jpg"
+        }
+      },
+      {
+        "type": "news_result",
+        "title": "River otters return to the river after a century away",
+        "url": "https://gazette.example.test/river-otters",
+        "description": "Cleaner water has brought river <strong>otters</strong> back upstream.",
+        "age": "1 day ago",
+        "page_age": "2026-08-24T09:30:00",
+        "breaking": true,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "gazette.example.test",
+          "hostname": "gazette.example.test",
+          "favicon": "https://imgs.example.test/gazette.png",
+          "path": "\u203a river-otters"
+        },
+        "thumbnail": {
+          "src": "https://imgs.example.test/news2.jpg",
+          "original": "https://gazette.example.test/news2.jpg"
+        }
+      },
+      {
+        "type": "news_result",
+        "title": "Zoo welcomes three otter pups",
+        "url": "https://zoo.example.test/otter-pups",
+        "description": "The pups made their public debut this week.",
+        "age": "2 days ago",
+        "page_age": "2026-08-23T15:00:00",
+        "breaking": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "zoo.example.test",
+          "hostname": "zoo.example.test",
+          "favicon": "https://imgs.example.test/zoo.png",
+          "path": "\u203a otter-pups"
+        },
+        "thumbnail": {
+          "src": "https://imgs.example.test/news3.jpg",
+          "original": "https://zoo.example.test/news3.jpg"
+        }
+      }
+    ]
+  },
+  "web": {
+    "type": "search",
+    "family_friendly": true,
+    "results": [
+      {
+        "type": "search_result",
+        "subtype": "generic",
+        "title": "Otter - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Otter",
+        "description": "<strong>Otters</strong> are carnivorous mammals in the subfamily Lutrinae. The 13 extant otter species are all semiaquatic, aquatic or marine.",
+        "page_age": "2026-06-01T12:00:00",
+        "age": "June 1, 2026",
+        "language": "en",
+        "family_friendly": true,
+        "profile": {
+          "name": "Wikipedia",
+          "long_name": "en.wikipedia.org",
+          "url": "https://en.wikipedia.org",
+          "img": "https://imgs.example.test/wiki.png"
+        },
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "en.wikipedia.org",
+          "hostname": "en.wikipedia.org",
+          "favicon": "https://imgs.example.test/wiki.png",
+          "path": "\u203a wiki \u203a Otter"
+        },
+        "extra_snippets": [
+          "Otters have long, slim bodies and relatively short limbs."
+        ]
+      },
+      {
+        "type": "search_result",
+        "title": "Sea Otter | National Geographic",
+        "url": "https://www.nationalgeographic.com/animals/mammals/facts/sea-otter",
+        "description": "Sea <strong>otters</strong> spend most of their lives in the water and have the densest fur of any animal.",
+        "page_age": "2026-02-14T08:00:00",
+        "profile": {
+          "name": "National Geographic",
+          "long_name": "nationalgeographic.com",
+          "url": "https://www.nationalgeographic.com",
+          "img": "https://imgs.example.test/natgeo.png"
+        },
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "nationalgeographic.com",
+          "hostname": "www.nationalgeographic.com",
+          "favicon": "https://imgs.example.test/natgeo.png",
+          "path": "\u203a animals \u203a mammals \u203a facts \u203a sea-otter"
+        },
+        "thumbnail": {
+          "src": "https://imgs.example.test/natgeo-otter.jpg",
+          "original": "https://www.nationalgeographic.com/otter.jpg"
+        }
+      },
+      {
+        "type": "search_result",
+        "title": "Sea otters - Monterey Bay Aquarium",
+        "url": "https://www.montereybayaquarium.org/animals/animals-a-to-z/sea-otter",
+        "description": "Meet the sea <strong>otters</strong> at the aquarium and learn how they keep kelp forests healthy.",
+        "profile": {
+          "name": "Monterey Bay Aquarium",
+          "long_name": "montereybayaquarium.org",
+          "url": "https://www.montereybayaquarium.org",
+          "img": "https://imgs.example.test/mba.png"
+        },
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "montereybayaquarium.org",
+          "hostname": "www.montereybayaquarium.org",
+          "favicon": "https://imgs.example.test/mba.png",
+          "path": "\u203a animals \u203a animals-a-to-z \u203a sea-otter"
+        }
+      },
+      {
+        "type": "search_result",
+        "title": "Otters - Defenders of Wildlife",
+        "url": "https://defenders.org/wildlife/otters",
+        "description": "River <strong>otters</strong> are found across North America in rivers, lakes and coastal waters.",
+        "age": "3 weeks ago",
+        "profile": {
+          "name": "Defenders of Wildlife",
+          "long_name": "defenders.org",
+          "url": "https://defenders.org",
+          "img": "https://imgs.example.test/defenders.png"
+        },
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "defenders.org",
+          "hostname": "defenders.org",
+          "favicon": "https://imgs.example.test/defenders.png",
+          "path": "\u203a wildlife \u203a otters"
+        }
+      },
+      {
+        "type": "search_result",
+        "title": "Otter Facts <img src=x onerror=alert(1)> for Kids",
+        "url": "https://kids.example.test/otters",
+        "description": "Fun facts about <strong>otters</strong>.<script>alert('xss')</script>",
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "kids.example.test",
+          "hostname": "kids.example.test",
+          "favicon": "https://imgs.example.test/kids.png",
+          "path": "\u203a otters"
+        }
+      },
+      {
+        "type": "search_result",
+        "title": "The otter's toolkit: rocks, shells and clever paws",
+        "url": "https://science.example.test/otter-tools",
+        "description": "Researchers describe how sea <strong>otters</strong> select and reuse favourite stones.",
+        "page_age": "2025-11-02T00:00:00",
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "science.example.test",
+          "hostname": "science.example.test",
+          "favicon": "https://imgs.example.test/science.png",
+          "path": "\u203a otter-tools"
+        },
+        "thumbnail": {
+          "src": "https://imgs.example.test/science-otter.jpg",
+          "original": "https://science.example.test/otter.jpg"
+        }
+      },
+      {
+        "type": "search_result",
+        "title": "Giant otter - WWF",
+        "url": "https://www.worldwildlife.org/species/giant-otter",
+        "description": "The giant <strong>otter</strong> of the Amazon can reach nearly six feet in length.",
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "worldwildlife.org",
+          "hostname": "www.worldwildlife.org",
+          "favicon": "https://imgs.example.test/wwf.png",
+          "path": "\u203a species \u203a giant-otter"
+        }
+      },
+      {
+        "type": "search_result",
+        "title": "Watch: otter cam, live from the coast",
+        "url": "https://cams.example.test/otters",
+        "description": "A live camera trained on a raft of <strong>otters</strong> in the kelp.",
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "cams.example.test",
+          "hostname": "cams.example.test",
+          "favicon": "https://imgs.example.test/cams.png",
+          "path": "\u203a otters"
+        }
+      },
+      {
+        "type": "search_result",
+        "title": "Otter (disambiguation)",
+        "url": "https://en.wikipedia.org/wiki/Otter_(disambiguation)",
+        "description": "<strong>Otter</strong> may also refer to several places, ships and people.",
+        "profile": {
+          "name": "Wikipedia",
+          "long_name": "en.wikipedia.org",
+          "url": "https://en.wikipedia.org",
+          "img": "https://imgs.example.test/wiki.png"
+        },
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "en.wikipedia.org",
+          "hostname": "en.wikipedia.org",
+          "favicon": "https://imgs.example.test/wiki.png",
+          "path": "\u203a wiki \u203a Otter_(disambiguation)"
+        }
+      },
+      {
+        "type": "search_result",
+        "title": "How to help otters near you",
+        "url": "https://conservation.example.test/help-otters",
+        "description": "Volunteer surveys, habitat cleanups and reporting sightings of <strong>otters</strong>.",
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "conservation.example.test",
+          "hostname": "conservation.example.test",
+          "favicon": "https://imgs.example.test/cons.png",
+          "path": "\u203a help-otters"
+        }
+      }
+    ]
+  }
+}
