@@ -4,8 +4,9 @@ from litestar import Response
 from litestar.datastructures import State
 
 
-def html(body: str, *, status_code: int = 200) -> Response[str]:
-    return Response(content=body, media_type=MediaType.HTML, status_code=status_code)
+def html(body: str, *, status_code: int = 200, no_store: bool = False) -> Response[str]:
+    headers = {"Cache-Control": "no-store"} if no_store else None
+    return Response(content=body, media_type=MediaType.HTML, status_code=status_code, headers=headers)
 
 
 async def form_value(request: Request[None, None, State], key: str) -> str:

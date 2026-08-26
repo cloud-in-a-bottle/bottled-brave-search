@@ -12,4 +12,4 @@ RUN uv sync --frozen --no-dev
 
 EXPOSE 8080
 
-CMD ["uv", "run", "--frozen", "--no-dev", "hypercorn", "server.asgi:app", "--bind", "0.0.0.0:8080"]
+CMD ["uv", "run", "--frozen", "--no-dev", "hypercorn", "server.asgi:app", "--bind", "0.0.0.0:8080", "--access-logfile", "-"]

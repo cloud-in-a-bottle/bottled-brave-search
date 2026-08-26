@@ -85,6 +85,13 @@ def test_upstream_failure_is_shown_as_a_search_error(client: TestClient[Litestar
     assert "Update your API key in Settings" in response.text
 
 
+def test_invalid_token_is_reported_as_a_key_problem(client: TestClient[Litestar], store: SettingsStore) -> None:
+    """Brave reports a bad token as 422 with SUBSCRIPTION_TOKEN_INVALID, not as 401."""
+    store.save_api_key("a-key-the-stub-rejects")
+    response = client.get("/search", params={"q": "otters"})
+    assert "Update your API key in Settings" in response.text
+
+
 def test_feeling_lucky_jumps_to_the_first_result(configured_client: TestClient[Litestar]) -> None:
     response = configured_client.get("/lucky", params={"q": "otters"}, follow_redirects=False)
     assert response.status_code == 303

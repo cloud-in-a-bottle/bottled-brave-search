@@ -25,7 +25,7 @@ _STEPS = (
 )
 
 
-def render_setup_page(*, error: str | None = None) -> str:
+def render_setup_page(*, error: str | None = None, submitted_key: str = "") -> str:
     steps = "".join(
         f'<li><div class="step-title">{title}</div><div class="step-body">{body}</div></li>' for title, body in _STEPS
     )
@@ -43,7 +43,7 @@ def render_setup_page(*, error: str | None = None) -> str:
         '<label for="api_key">Brave Search API key</label>'
         f'<div class="key-input-wrap">{icons.KEY}'
         '<input id="api_key" name="api_key" type="password" autocomplete="off" spellcheck="false" required'
-        ' placeholder="BSA...">'
+        f' placeholder="BSA..." value="{escape(submitted_key)}">'
         '<button class="key-reveal" type="button" data-reveal="api_key">Show</button>'
         "</div>"
         '<button class="primary-button" type="submit">Save and verify</button>'

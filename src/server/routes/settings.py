@@ -19,18 +19,22 @@ from server.views.settings_page import render_settings_page
 @get("/settings")
 async def settings_page(store: SettingsStore, saved: FromQuery[bool] = False) -> Response[str]:
     notice = "Settings saved." if saved else None
-    return html(render_settings_page(store.load(), notice=notice))
+    return html(render_settings_page(store.load(), notice=notice), no_store=True)
 
 
 @post("/settings/key")
 async def update_key(store: SettingsStore, request: Request[None, None, State]) -> Response[str]:
     api_key = await form_value(request, "api_key")
     if not api_key:
-        return html(render_settings_page(store.load(), error="Enter an API key."), status_code=400)
+        return html(render_settings_page(store.load(), error="Enter an API key."), status_code=400, no_store=True)
     try:
         await BraveClient(api_key=api_key).verify_key()
     except BraveApiError as error:
-        return html(render_settings_page(store.load(), error=error.message), status_code=400)
+        return html(
+            render_settings_page(store.load(), error=error.message, submitted_key=api_key),
+            status_code=400,
+            no_store=True,
+        )
     store.save_api_key(api_key)
     return Redirect(path="/settings?saved=1", status_code=303)
 
@@ -46,6 +50,8 @@ async def update_preferences(store: SettingsStore, request: Request[None, None, 
     safesearch = await form_value(request, "safesearch")
     country = (await form_value(request, "country")).upper()
     if safesearch not in SAFESEARCH_CHOICES or country not in COUNTRY_CODES:
-        return html(render_settings_page(store.load(), error="Those preferences aren't valid."), status_code=400)
+        return html(
+            render_settings_page(store.load(), error="Those preferences aren't valid."), status_code=400, no_store=True
+        )
     store.save_preferences(safesearch=safesearch, country=country)
     return Redirect(path="/settings?saved=1", status_code=303)

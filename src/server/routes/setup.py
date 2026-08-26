@@ -17,17 +17,17 @@ from server.views.setup_page import render_setup_page
 async def setup_page(store: SettingsStore) -> Response[str]:
     if store.load().is_configured:
         return Redirect(path="/", status_code=303)
-    return html(render_setup_page())
+    return html(render_setup_page(), no_store=True)
 
 
 @post("/setup")
 async def submit_setup(store: SettingsStore, request: Request[None, None, State]) -> Response[str]:
     api_key = await form_value(request, "api_key")
     if not api_key:
-        return html(render_setup_page(error="Enter an API key."), status_code=400)
+        return html(render_setup_page(error="Enter an API key."), status_code=400, no_store=True)
     try:
         await BraveClient(api_key=api_key).verify_key()
     except BraveApiError as error:
-        return html(render_setup_page(error=error.message), status_code=400)
+        return html(render_setup_page(error=error.message, submitted_key=api_key), status_code=400, no_store=True)
     store.save_api_key(api_key)
     return Redirect(path="/", status_code=303)

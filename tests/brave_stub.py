@@ -36,7 +36,18 @@ class _Handler(BaseHTTPRequestHandler):
             self._respond_placeholder(path)
             return
         if self.headers.get("X-Subscription-Token") != VALID_KEY:
-            self._respond(401, {"error": {"code": "SUBSCRIPTION_TOKEN_INVALID", "detail": "Invalid token"}})
+            self._respond(
+                422,
+                {
+                    "type": "ErrorResponse",
+                    "error": {
+                        "id": "stub",
+                        "status": 422,
+                        "code": "SUBSCRIPTION_TOKEN_INVALID",
+                        "detail": "The provided subscription token is invalid.",
+                    },
+                },
+            )
             return
         fixture = _FIXTURES.get(path)
         if fixture is None:

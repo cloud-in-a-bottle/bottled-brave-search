@@ -115,10 +115,32 @@ class BraveClient:
         await self.web_search("brave search", count=1, offset=0, safesearch="moderate", country="ALL")
 
 
+# Brave reports a bad or out-of-quota subscription as HTTP 422 with a machine-readable code, not as 401/403,
+# so the code is checked before the status.
+_ERROR_CODE_KINDS = {
+    "SUBSCRIPTION_TOKEN_INVALID": BraveErrorKind.INVALID_KEY,
+    "SUBSCRIPTION_TOKEN_MISSING": BraveErrorKind.INVALID_KEY,
+    "SUBSCRIPTION_EXPIRED": BraveErrorKind.QUOTA_EXCEEDED,
+    "PLAN_EXPIRED": BraveErrorKind.QUOTA_EXCEEDED,
+    "QUOTA_EXCEEDED": BraveErrorKind.QUOTA_EXCEEDED,
+    "RATE_LIMITED": BraveErrorKind.RATE_LIMITED,
+}
+
+_KIND_MESSAGES = {
+    BraveErrorKind.INVALID_KEY: "Brave rejected the API key. It may have been revoked, or it may not cover this endpoint.",
+    BraveErrorKind.QUOTA_EXCEEDED: "This Brave Search subscription is out of quota.",
+    BraveErrorKind.RATE_LIMITED: "Brave rate-limited this request. The free plan allows one query per second — try again shortly.",
+}
+
+
 def _error_for_response(path: str, response: httpx.Response) -> BraveApiError:
     status = response.status_code
-    detail = _detail_from_body(response)
-    logger.warning("brave {} failed with {}: {}", path, status, detail or response.text[:200])
+    code, detail = _error_from_body(response)
+    logger.warning("brave {} failed with {} ({}): {}", path, status, code or "-", detail or response.text[:200])
+
+    kind = _ERROR_CODE_KINDS.get(code or "")
+    if kind is not None:
+        return BraveApiError(kind=kind, message=detail or _KIND_MESSAGES[kind], status_code=status)
 
     if status in (httpx.codes.UNAUTHORIZED, httpx.codes.FORBIDDEN):
         return BraveApiError(
@@ -151,15 +173,20 @@ def _error_for_response(path: str, response: httpx.Response) -> BraveApiError:
     )
 
 
-def _detail_from_body(response: httpx.Response) -> str | None:
+def _error_from_body(response: httpx.Response) -> tuple[str | None, str | None]:
+    """Pull Brave's ``error.code`` and ``error.detail`` out of an error body."""
     try:
         payload = json.loads(response.content)
     except json.JSONDecodeError:
-        return None
+        return None, None
     if not isinstance(payload, dict):
-        return None
+        return None, None
     error = payload.get("error")
     if not isinstance(error, dict):
-        return None
-    detail = error.get("detail") or error.get("meta")
-    return detail if isinstance(detail, str) and detail else None
+        return None, None
+    code = error.get("code")
+    detail = error.get("detail")
+    return (
+        code if isinstance(code, str) and code else None,
+        detail if isinstance(detail, str) and detail else None,
+    )

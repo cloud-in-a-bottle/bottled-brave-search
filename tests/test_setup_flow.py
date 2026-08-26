@@ -21,8 +21,22 @@ def test_setup_page_explains_how_to_get_a_key(client: TestClient[Litestar]) -> N
 def test_rejected_key_is_not_stored(client: TestClient[Litestar], store: SettingsStore) -> None:
     response = client.post("/setup", data={"api_key": "not-a-real-key"}, follow_redirects=False)
     assert response.status_code == 400
-    assert "rejected the API key" in response.text
+    assert "The provided subscription token is invalid." in response.text
     assert store.load().brave_api_key is None
+
+
+def test_rejected_key_is_echoed_back_so_the_submit_does_not_look_like_a_no_op(
+    client: TestClient[Litestar],
+) -> None:
+    response = client.post("/setup", data={"api_key": "not-a-real-key"}, follow_redirects=False)
+    assert 'value="not-a-real-key"' in response.text
+    assert response.headers["cache-control"] == "no-store"
+
+
+def test_empty_submission_says_so(client: TestClient[Litestar]) -> None:
+    response = client.post("/setup", data={"api_key": "  "}, follow_redirects=False)
+    assert response.status_code == 400
+    assert "Enter an API key." in response.text
 
 
 def test_accepted_key_is_stored_and_unlocks_the_app(client: TestClient[Litestar], store: SettingsStore) -> None:

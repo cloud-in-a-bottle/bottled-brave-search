@@ -9,7 +9,7 @@ setup:
 # Run the app locally on http://localhost:8080 (auto-reloads on change).
 run:
     mkdir -p .local
-    OPENHOST_SQLITE_MAIN=.local/main.db uv run hypercorn server.asgi:app --bind 0.0.0.0:8080 --reload
+    OPENHOST_SQLITE_MAIN=.local/main.db uv run hypercorn server.asgi:app --bind 0.0.0.0:8080 --reload --access-logfile -
 
 # Run the test suite.
 test:

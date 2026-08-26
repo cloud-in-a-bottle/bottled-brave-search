@@ -11,7 +11,9 @@ from server.views.layout import render_wordmark
 _SAFESEARCH_LABELS = {"off": "Off", "moderate": "Moderate", "strict": "Strict"}
 
 
-def render_settings_page(settings: AppSettings, *, error: str | None = None, notice: str | None = None) -> str:
+def render_settings_page(
+    settings: AppSettings, *, error: str | None = None, notice: str | None = None, submitted_key: str = ""
+) -> str:
     banner = f'<div class="form-error">{escape(error)}</div>' if error else ""
     if notice:
         banner += f'<div class="form-notice">{escape(notice)}</div>'
@@ -20,7 +22,7 @@ def render_settings_page(settings: AppSettings, *, error: str | None = None, not
         '<div class="settings-card">'
         f'<div class="settings-header"><a href="/">{render_wordmark("wordmark-medium")}</a><h1>Settings</h1></div>'
         f"{banner}"
-        f"{_render_key_section(settings)}"
+        f"{_render_key_section(settings, submitted_key)}"
         f"{_render_preferences_section(settings)}"
         '<div class="settings-footer"><a href="/">Back to search</a></div>'
         "</div>"
@@ -29,7 +31,7 @@ def render_settings_page(settings: AppSettings, *, error: str | None = None, not
     return render_document("Settings", body, body_class="settings-page")
 
 
-def _render_key_section(settings: AppSettings) -> str:
+def _render_key_section(settings: AppSettings, submitted_key: str) -> str:
     current = (
         f'<div class="current-key">{icons.KEY}<span>Current key: <code>{escape(_mask(settings.brave_api_key))}</code></span></div>'
         if settings.brave_api_key is not None
@@ -49,7 +51,7 @@ def _render_key_section(settings: AppSettings) -> str:
         '<form class="key-form" method="post" action="/settings/key">'
         f'<div class="key-input-wrap">{icons.KEY}'
         '<input id="api_key" name="api_key" type="password" autocomplete="off" spellcheck="false" required'
-        ' placeholder="Paste a new key to replace it">'
+        f' placeholder="Paste a new key to replace it" value="{escape(submitted_key)}">'
         '<button class="key-reveal" type="button" data-reveal="api_key">Show</button>'
         "</div>"
         '<div class="button-row">'
